@@ -58,6 +58,10 @@ public class BingoPlayer {
 		return true;
 	}
 
+	public Player getPlayer(){
+		return player;
+	}
+
 	/**
 	 * 根据任务索引检查该玩家是否已完成某任务。
 	 * 

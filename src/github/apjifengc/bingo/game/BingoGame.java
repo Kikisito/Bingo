@@ -236,13 +236,13 @@ public class BingoGame {
 				for (BingoPlayer bp : players) {
 					Player p = bp.getPlayer();
 					p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 2048.0f, 1.0f);
-					p.sendTitle("§6" + String.valueOf(timer), "", 0, 50, 10);
+					p.sendTitle("§6" + timer, "", 0, 50, 10);
 				}
 			} else if (timer == 1) {
 				for (BingoPlayer bp : players) {
 					Player p = bp.getPlayer();
 					p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 2048.0f, 1.0f);
-					p.sendTitle("§4" + String.valueOf(timer), "", 0, 50, 10);
+					p.sendTitle("§4" + timer, "", 0, 50, 10);
 				}
 			}
 		} else if (this.state == BingoGameState.STOPPED) {
